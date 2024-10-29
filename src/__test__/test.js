@@ -14,4 +14,3 @@ test('healthy line', () => {
   expect(health({ name: 'Barney', health: 49 })).toBe('wounded');
   expect(health({ name: 'Robin', health: 51 })).toBe('healthy');
 });
-
