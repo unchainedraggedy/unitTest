@@ -1,4 +1,4 @@
-import health from '../index';
+import health from '../health';
 
 test('health is between 50 and 15', () => {
   expect(health({ name: 'Selen', health: 30 })).toBe('wounded');
